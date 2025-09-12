@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 COPY fleet-osquery_amd64.deb /
 COPY run-fleetd.sh /
