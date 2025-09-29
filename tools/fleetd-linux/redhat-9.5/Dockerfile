@@ -1,4 +1,4 @@
-FROM redhat/ubi9:9.5
+FROM redhat/ubi9:9.6-1758184894
 
 COPY fleet-osquery_amd64.rpm /
 COPY run-fleetd.sh /
