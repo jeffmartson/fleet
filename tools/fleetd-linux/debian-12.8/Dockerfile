@@ -1,4 +1,4 @@
-FROM debian:12.8
+FROM debian:bookworm-20250929
 
 COPY fleet-osquery_amd64.deb /
 COPY run-fleetd.sh /
